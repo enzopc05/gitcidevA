@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="7.85">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-10-01T12:10:52" time="6.349" tests="1">
-    <testcase classname=" initial task list is empty" name=" initial task list is empty" time="0.009">
+<testsuites name="jest tests" tests="8" failures="0" errors="0" time="0.854">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-10-01T12:51:23" time="0.731" tests="8">
+    <testcase classname=" initial task list is empty" name=" initial task list is empty" time="0.005">
+    </testcase>
+    <testcase classname="addTask ajoute une tâche avec un nom valide" name="addTask ajoute une tâche avec un nom valide" time="0.001">
+    </testcase>
+    <testcase classname="addTask trim le nom de la tâche" name="addTask trim le nom de la tâche" time="0.001">
+    </testcase>
+    <testcase classname="addTask rejette un nom vide" name="addTask rejette un nom vide" time="0.022">
+    </testcase>
+    <testcase classname="addTask rejette un nom avec uniquement des espaces" name="addTask rejette un nom avec uniquement des espaces" time="0.001">
+    </testcase>
+    <testcase classname="toggleTask bascule le statut d&apos;une tâche de false à true" name="toggleTask bascule le statut d&apos;une tâche de false à true" time="0.001">
+    </testcase>
+    <testcase classname="toggleTask bascule le statut d&apos;une tâche de true à false" name="toggleTask bascule le statut d&apos;une tâche de true à false" time="0">
+    </testcase>
+    <testcase classname="toggleTask rejette un id inexistant" name="toggleTask rejette un id inexistant" time="0.009">
     </testcase>
   </testsuite>
 </testsuites>
